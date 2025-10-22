@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 TestSetup", "01 LocalSetUpCode\01 TestSetup.csproj", "{FA37C16F-4821-6F0F-0661-F9149F45A1B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 SkMinimalRag", "02 SkMinimalRag\02 SkMinimalRag.csproj", "{657D15F2-AA70-2453-6DD3-B1F5039679D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 SkMinimalRagRerank", "03 SkMinimalRagRerank\03 SkMinimalRagRerank.csproj", "{F44A5D92-D504-1BB1-F1A4-B77B19BB0360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 SkMinimalRagRerankChunk", "04 SkMinimalRagRerankChunk\04 SkMinimalRagRerankChunk.csproj", "{2118E071-0F8E-33F3-5091-BC676DE77F96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\Licence.txt = Docs\Licence.txt
+		Docs\LOCAL SETUP.docx = Docs\LOCAL SETUP.docx
+		Docs\PipeLi,ineLocal.pptx = Docs\PipeLi,ineLocal.pptx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContainersCode", "ContainersCode", "{9FC055E8-DBF6-4160-801D-8F4F1A0E4B2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Embeddings", "Embeddings", "{65F458B3-E375-496E-AC53-076189F65046}"
+	ProjectSection(SolutionItems) = preProject
+		ServersCode\embedding-server\Dockerfile = ServersCode\embedding-server\Dockerfile
+		ServersCode\embedding-server\server.py = ServersCode\embedding-server\server.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reranking", "Reranking", "{202BDCAA-8C53-4823-8B16-DCAFBB3735FC}"
+	ProjectSection(SolutionItems) = preProject
+		ServersCode\reranking-server\Dockerfile = ServersCode\reranking-server\Dockerfile
+		ServersCode\reranking-server\server_rerank.py = ServersCode\reranking-server\server_rerank.py
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA37C16F-4821-6F0F-0661-F9149F45A1B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA37C16F-4821-6F0F-0661-F9149F45A1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA37C16F-4821-6F0F-0661-F9149F45A1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA37C16F-4821-6F0F-0661-F9149F45A1B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657D15F2-AA70-2453-6DD3-B1F5039679D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657D15F2-AA70-2453-6DD3-B1F5039679D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657D15F2-AA70-2453-6DD3-B1F5039679D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657D15F2-AA70-2453-6DD3-B1F5039679D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44A5D92-D504-1BB1-F1A4-B77B19BB0360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44A5D92-D504-1BB1-F1A4-B77B19BB0360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44A5D92-D504-1BB1-F1A4-B77B19BB0360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44A5D92-D504-1BB1-F1A4-B77B19BB0360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2118E071-0F8E-33F3-5091-BC676DE77F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2118E071-0F8E-33F3-5091-BC676DE77F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2118E071-0F8E-33F3-5091-BC676DE77F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2118E071-0F8E-33F3-5091-BC676DE77F96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65F458B3-E375-496E-AC53-076189F65046} = {9FC055E8-DBF6-4160-801D-8F4F1A0E4B2B}
+		{202BDCAA-8C53-4823-8B16-DCAFBB3735FC} = {9FC055E8-DBF6-4160-801D-8F4F1A0E4B2B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B69FDDC-208F-42DB-A45B-A21A594D66A8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,83 @@
+LICENSE.TXT
+================================================================================
+Pack « Pipeline IA Local en C# » (sources & documentation)
+Licence : Creative Commons Attribution – NonCommercial – NoDerivatives 4.0
+          International (CC BY-NC-ND 4.0)
+================================================================================
+
+1) IDENTITÉ DE L’ŒUVRE
+   - Titre : Pack d’accompagnement « Pipeline IA Local en C# »
+   - Contenu : code source de démonstration et documentation
+   - Référence vidéo : vidéo publiée sur la chaîne YouTube
+     https://www.youtube.com/@e-naxosConsulting
+
+2) TITULAIRES DES DROITS
+   © 2025 Olivier Dahan & E-Naxos — Tous droits réservés (hors droits concédés
+   par la licence ci-dessous).
+
+3) LICENCE APPLICABLE (CC BY-NC-ND 4.0)
+   Cette œuvre est mise à disposition sous la licence Creative Commons
+   « Attribution – Pas d’Utilisation Commerciale – Pas de Modification 4.0
+   International ». 
+   Texte officiel (anglais) :
+   https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+   Résumé lisible par l’utilisateur :
+   https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+4) PERMISSIONS ACCORDÉES (RÉSUMÉ NON CONTRACTUEL)
+   Vous POUVEZ :
+   - Télécharger, copier et partager l’archive telle quelle ;
+   - L’utiliser pour votre apprentissage personnel ;
+   - Citer/partager des extraits non modifiés à titre informatif,
+     avec attribution correcte (voir §7).
+
+5) RESTRICTIONS ET INTERDITIONS (RÉSUMÉ NON CONTRACTUEL)
+   Vous NE POUVEZ PAS :
+   - Utiliser l’œuvre ou le code à des fins commerciales ou professionnelles ;
+   - Modifier, adapter, dériver, traduire, fusionner ou intégrer tout ou partie
+     du contenu dans un autre projet ;
+   - Publier, redistribuer, héberger publiquement (ex. dépôts Git, gists,
+     sites, packages), ou inclure dans un produit/service ;
+   - Supprimer ou altérer les mentions d’attribution et de licence ;
+   - Dépasser le cadre d’un usage strictement pédagogique et personnel.
+
+   Toute utilisation dépassant ces permissions nécessite une autorisation
+   écrite préalable d’Olivier Dahan & E-Naxos.
+
+6) EXCLUSION DE GARANTIE ET LIMITATION DE RESPONSABILITÉ
+   CE CONTENU EST FOURNI « EN L’ÉTAT », SANS AUCUNE GARANTIE EXPRESSE OU
+   IMPLICITE, Y COMPRIS, SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ MARCHANDE,
+   D’ADÉQUATION À UN USAGE PARTICULIER ET D’ABSENCE DE CONTREFAÇON.
+   EN AUCUN CAS L’AUTEUR/L’ÉDITEUR NE SAURAIT ÊTRE TENU RESPONSABLE
+   DE DOMMAGES DIRECTS OU INDIRECTS, SPÉCIAUX, ACCESSOIRES OU CONSÉCUTIFS,
+   PERTES DE DONNÉES OU D’EXPLOITATION, DÉCOULANT DE L’UTILISATION OU DE
+   L’IMPOSSIBILITÉ D’UTILISER CE CONTENU, MÊME SI AVIS ÉCRIT A ÉTÉ DONNÉ
+   DE LA POSSIBILITÉ DE TELS DOMMAGES.
+
+7) ATTRIBUTION REQUISE (FORMAT RECOMMANDÉ)
+   Lors d’une citation ou d’un partage autorisé :
+   « Initiation à Semantic Kernel – Pack d’accompagnement (CC BY-NC-ND 4.0)
+     © 2025 Olivier Dahan & E-Naxos – Source : chaîne YouTube
+     https://www.youtube.com/@e-naxosConsulting »
+
+8) DEMANDES D’AUTORISATION
+   Pour tout usage non couvert par la licence (ex. formation payante, intranet,
+   redistribution, intégration logicielle, publication de dérivés), demander
+   une autorisation écrite préalable à Olivier Dahan & E-Naxos via la chaîne :
+   https://www.youtube.com/@e-naxosConsulting ou par mail à odahan@e-naxos.com
+
+9) TIERS, DÉPENDANCES ET MARQUES
+   Le pack peut faire référence à des bibliothèques, outils, marques ou
+   contenus de tiers. Ceux-ci restent la propriété de leurs titulaires
+   respectifs et sont régis par leurs propres licences/conditions.
+   Aucune licence sur des composants tiers n’est concédée par le présent
+   document.
+
+10) LANGUE ET PRÉVALENCE
+   Le présent fichier fournit un résumé en français pour faciliter la lecture.
+   En cas de divergence d’interprétation, la version anglaise de la licence
+   Creative Commons (legal code) prévaut.
+
+--------------------------------------------------------------------------------
+En utilisant, copiant ou partageant ce pack, vous acceptez les termes
+de la licence CC BY-NC-ND 4.0 et des conditions ci-dessus.
