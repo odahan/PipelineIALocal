@@ -6,7 +6,7 @@ Lire les documents joints dans le répertoire DOCS :
 
 
 
-* Licence.txt 
+* Licence.txt
 * Local Setup.docx (instructions !à
 * PipeLineLocal.pptx (optionnel)
 
@@ -24,4 +24,6 @@ Mise en place d'un pipeline complet 100% local
 Utilise Docker Desktop (gratuit)
 
 
+
+GitHub Repo : https://github.com/odahan/PipelineIALocal
 
